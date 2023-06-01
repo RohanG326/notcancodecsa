@@ -51,11 +51,25 @@
 <div class="w-full p-2 bg-base-200 max-w-2xl">
 	<div class='flex flex-col gap-2' in:fly={{ y: 50, duration: 400, delay: 100 }} out:fade={{ duration: 100 }}>
 
-		<div class='bg-red-500 w-full h-96'>
+		<div class='bg-red-500 w-full h-100'>
 			<img src='https://github.com/TristanCopley/delnorte-csa/assets/89225438/bc74339e-0ce7-45eb-88be-42ecec4a95d5' alt="bomb" width="656" height="450">
 		</div>
-
-		<div class='w-full min-h-[28rem] max-h-[48rem] bg-base-300 px-2 py-2 overflow-y-scroll'>
+		<br>
+		<div class='font-bold'>Del Norte CSA Website Redone</div>
+			<span>An easier and simpler way for Mr. Mortensen to interact with his students and for his students to interact with his content during the entire
+				 school year for CSA. Del Norte Website Redone also provides a better and cleaner version of jupyter notebooks/github pages for documentation.</span>
+		
+		<div class='font-bold'>CTE Standards</div>
+		<ul class="list-disc px-10">
+			<li>C1.0 Identify and apply the systems development process.</li>
+			<li>C1.1 Identify the phases of the systems development life cycle, including analysis, design, programming, testing, implementation, maintenance, and improvement.</li>
+			<li>C1.2 Identify and describe models of systems development, software development life cycle (SDLC), and agile computing.</li>
+			<li>C1.3 Identify and describe how specifications and requirements are developed for new and existing software applications.</li>
+			<li>C1.4 Work as a member of, and within the scope and boundaries of, a development project team.</li>
+			<li>C1.5 Track development project milestones using the concept of versions.</li>
+		</ul>
+		
+				 <div class='w-full min-h-[28rem] max-h-[48rem] bg-base-300 px-2 py-2 overflow-y-scroll'>
 
 			<span class="self-start text-xl font-bold">Teacher Announcements:</span>
 
